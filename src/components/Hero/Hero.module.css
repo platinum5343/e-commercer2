@@ -1,0 +1,42 @@
+.container
+{
+    width: 100%;
+    height: calc(100vh);
+}
+.containers
+{
+    display: flex;
+    background: #E2F3FF;
+    padding: 40px;
+}
+.home{
+    padding-bottom: 40px;
+}
+.home>:nth-child(1)
+{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 63px;
+}
+.home>:nth-child(2)
+{
+    font-weight: 200;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Avenir;
+}
+
+.home>:nth-child(3)
+{
+    display: flex;
+    border: none;
+    background: #003CBE;
+    border-radius: 8px;
+    color: white;
+    width: 184px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+
+}

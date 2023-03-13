@@ -4,32 +4,32 @@ import profile2 from '../assets/profile2.png'
 export const TestimonialsData = [
     {
         image : profile1,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "John Alendon"
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nullam eros lectus varius cursus ante enim, faucibus. Neque.",
+        name: "John Alendon",
+        title: "CEO, PZU Zdrowie"
     },
     {
         image : profile2,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Natasha"
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nullam eros lectus varius cursus ante enim, faucibus. Neque.",
+        name: "Natasha",
+        title: "CEO, PZU Zdrowie"
     },
     {
         image : profile1,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Alex Hormonzi"
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nullam eros lectus varius cursus ante enim, faucibus. Neque.",
+        name: "Alex Hormonzi",
+        title: "CEO, PZU Zdrowie"
     },
     {
         image : profile1,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "John Alendon"
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nullam eros lectus varius cursus ante enim, faucibus. Neque.",
+        name: "felix",
+        title: "CEO, PZU Zdrowie"
     },
     {
         image : profile2,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Natasha"
-    },
-    {
-        image : profile1,
-        comment: " Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Alex Hormonzi"
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nullam eros lectus varius cursus ante enim, faucibus. Neque.",
+        name: "light",
+        title: "CEO, PZU Zdrowie"
     }
 ]

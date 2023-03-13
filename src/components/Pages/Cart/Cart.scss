@@ -1,0 +1,213 @@
+.cart{
+    height: 100vh;
+    display: flex;
+
+    .line{
+        display: flex;
+        margin-left: 10rem;
+    }
+    
+    .carts{
+        h1{
+            font-family: 'Avenir';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900; 
+            line-height: 44px;
+        }
+        h2{
+            font-family: 'Avenir';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900; 
+            line-height: 44px;
+        }
+
+        .begin{
+            display: flex;
+            margin: 1rem;
+            width: 35rem;
+            
+            padding: 1rem 1rem 1rem 1rem;
+    
+            .ship{
+                position: relative;
+                border-radius: 8px 0px 0px 8px;
+                background: blue;
+                color: #fff;
+                align-items: center;
+                justify-content: left;
+                text-align: start;
+                margin-top: 3px;
+                padding-left: 5px;
+                width: 120%;
+    
+                .inner{
+                    padding: 5px;
+                }
+                .icon{
+                    display: flex;
+                    position: absolute;
+                    top: 50px;
+                    right: 20px;
+                    gap: 2px;
+                    
+                }
+            }
+            .ships{
+                position: relative;
+                border-radius: 0px 8px 8px 0px;
+                background-color: white;
+                border: 0.5px solid gray;
+                align-items: center;
+                justify-content: left;
+                text-align: start;
+                margin-top: 3px;
+                width: 120%;
+                .inner{
+                    padding: 5px;
+                }
+                .icon{
+                    display: flex;
+                    position: absolute;
+                    top: 50px;
+                    right: 20px;
+                    gap: 2px;
+                }
+            }
+            
+        }
+
+    }
+
+       
+    .address{
+        margin-left: 2rem;
+        width: 100%;
+
+        .inputs{
+            gap: 1rem;
+            display: flex;
+            
+            input{
+                
+                width: 60%;
+                height: 35px;
+                border-radius: 8px;
+                border: .5px solid grey;
+        }
+
+        }
+        textarea{
+            margin-top: 1.5rem;
+            width: 100%;
+            border-radius: 8px;
+            border: .5px solid grey;
+        }
+        .lastin{
+            display: flex;
+            color: #fff;
+            background: #003cbe;
+            border: none;
+            width: 220px;
+            height: 50px;
+            justify-content: center;
+            position: absolute;
+            border-radius: 8px;
+            left: 450px;
+            margin-top: 2rem;
+
+        }
+    }
+
+    .carted{
+        width: 30rem;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        background-color: white;
+        padding: 20px;
+        -webkit-box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.5);
+    
+    h1{
+        margin-bottom: 30px;
+        color: gray;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    .item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 30px;
+        img{
+            width: 80px;
+            height: 100px;
+            object-fit: cover;
+        }
+        
+        i{
+            color: red;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    
+        .details{
+            h1{
+                font-size: 18px;
+                font-weight: 500;
+            }
+    
+            p{
+                color: gray;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+    
+            .price{
+                color: #2879fe;
+    
+            }
+        }
+        .delete{
+            color: red;
+            font-size: 30px;
+            cursor: pointer;
+        }
+      }
+    
+      .total{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 20px;
+        
+    
+      }
+    
+      button{
+        width: 250px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: #2879fe;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+    
+      .reset{
+        color: red;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    
+    }   
+}

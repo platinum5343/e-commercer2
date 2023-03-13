@@ -1,0 +1,45 @@
+.footers{
+    height: 40vh;
+    background: #001032;
+}
+
+hr{
+    display: flex;
+    margin: 20xp;
+}
+.footer{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.footer li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer .h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.lower{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.lower>:nth-child(1){
+    
+    padding-left: 5rem;
+}
+.lowered{
+    display: flex;
+    justify-content: space-between;
+}

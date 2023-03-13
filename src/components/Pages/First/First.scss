@@ -1,0 +1,112 @@
+.first{
+    padding: 20px 50px;
+    display: flex;
+    gap: 50px;
+
+    .left{
+        flex: 1;
+        display: flex;
+        gap: 20px;
+        .images{
+            flex: 1;
+
+            img{
+                width: 65px;
+                height: 46px;
+                cursor: pointer;
+                margin-bottom: 10px;
+                background: #ffffff;
+                border: 1px solid #e0e0e0;
+                border-radius: 4px;
+
+                &:hover{
+                    border: 1px solid #003cbe;
+                }
+            }
+        }
+        .mainImg{
+            flex: 4;
+            img{
+                width: 481px;
+                height: 320px;
+                
+                background: #ffffff;
+                border: 1px solid #e0e0e0;
+                border-radius: 6px;
+            }
+        }
+    }
+    .right{
+        flex: 1;
+
+        h1{
+            font-family: 'Avenir';
+            font-style: normal;
+            font-size: 40px;
+            font-weight: 900;
+            color: #333333;
+        }
+        p{
+            color: #4f4f4f;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .icon{
+            color: #ffce31;
+        }
+        .rights{
+
+            display: flex;
+            span{
+                margin-right: 3rem;
+            }
+
+        }
+
+        .item{
+            display: flex;
+
+            span{
+                color: #333333;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                margin-right: 3rem;
+            }
+            button{
+                width: 206px;
+                font-family: 'Avenir';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 25px;
+                color: #ffffff;
+                align-items: center;
+                justify-content: center;
+                padding: 12px 15px;
+                background: #003cbe;
+                border-radius: 8px;
+                border: none;
+            }
+        }
+    }
+
+}
+.products{
+    font-family: serif;
+    margin: 4rem;
+
+    h1{
+        color: #003cbe;
+    }
+
+
+    .simple{
+        display: flex;
+        border-color: #333333;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+}

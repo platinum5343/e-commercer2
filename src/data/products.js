@@ -1,135 +1,179 @@
 import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
-import img4 from '../assets/img4.png'
-import img5 from '../assets/img5.png'
-import img6 from '../assets/img6.png'
-import img7 from '../assets/img7.png'
-import img8 from '../assets/img8.png'
-import img9 from '../assets/img9.png'
-import img10 from '../assets/img10.png'
-import img11 from '../assets/img11.png'
-import img12 from '../assets/img12.png'
-import img13 from '../assets/img13.png'
 import img14 from '../assets/img14.png'
+ import img15 from '../assets/img15.png'
+ import img16 from '../assets/img16.png'
+import img17 from '../assets/img17.png'
+// import img18 from '../assets/img18.png'
+// import img19 from '../assets/img19.png'
+// import img20 from '../assets/img20.png'
+// import img21 from '../assets/img21.png'
+// import img22 from '../assets/img22.png'
+// import img23 from '../assets/img23.png'
 
 export const SliderProducts = [{
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img1
+    name: '40% OFF',
+    detail: 'SchoolBag',
+    img: img1,
+    price: 'Shop Now',
 },
 {
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '30',
-    img: img2
+    name: '40% OFF',
+    detail: 'SchoolBag',
+    img: img1,
+    price: 'Shop Now',
 },
 {
-    name: 'NATURE',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img3
+    name: '40% OFF',
+    detail: 'SchoolBag',
+    img: img1,
+    price: 'Shop Now',
 }
 ]
-export const ProductsData = [{
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img1,
-    type: 'skin care',
-},
-{
-    name: 'SKIN',
-    detail: 'Super Skin Care',
-    price: '30',
-    img: img2,
-    type: 'skin care',
-},
-{
-    name: 'NATURE',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img3,
-    type: 'skin care',
-},
-{
-    name: 'Foundation',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img4,
-    type: 'foundation',
-},
-{
-    name: 'CONDITIONER',
-    detail: 'Super Skin Care',
-    price: '30',
-    img: img5,
-    type: 'conditioner',
-},
-{
-    name: 'NATURE',
-    detail: 'Super Skin Care',
-    price: '25',
-    img: img6,
-    type: 'skin care',
-},
-{
-    name: "CONDITIONER",
-    details: 'Best Conditioner',
-    price: '30',
-    img: img7,
-    type: 'conditioner'
-}
-,
-{
-    name: "CONDITIONER",
-    details: 'Best Conditioner',
-    price: '30',
-    img: img8,
-    type: 'conditioner'
-},
-{
-    name: "CONDITIONER",
-    details: 'Best Conditioner',
-    price: '30',
-    img: img9,
-    type: 'conditioner'
-},
-{
-    name: "CONDITIONER",
-    details: 'Best Conditioner',
-    price: '30',
-    img: img10,
-    type: 'conditioner'
-},
-{
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
-    price: '12',
-    img: img11,
-    type: 'foundation'
-},
-{
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
-    price: '12',
-    img: img12,
-    type: 'foundation'
-},
-{
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
-    price: '12',
-    img: img13,
-    type: 'foundation'
-},
-{
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
-    price: '12',
-    img: img14,
-    type: 'foundation'
-}
+// export const ProductsData = [{
+//     name: 'SKIN',
+//     img: img14,
+//     detail: 'Super Skin Care',
+//     price: '25',
+//     type: 'skin care',
+// },
+//  {
+//      name: 'SKIN',
+//      detail: 'Super Skin Care',
+//      price: '30',
+//      img: img15,
+//      type: 'skin care',
+//  },
+//  {
+//      name: 'NATURE',
+//      detail: 'Super Skin Care',
+//      price: '25',
+//      img: img16,
+//      type: 'skin care',
+//  },
+//  {
+//      name: 'Foundation',
+//      detail: 'Super Skin Care',
+//      price: '25',
+//      img: img17,
+//      type: 'foundation',
+//  },
+//  {
+//      name: 'CONDITIONER',
+//      detail: 'Super Skin Care',
+//      price: '30',
+//      img: img18,
+//      type: 'conditioner',
+//  },
+//  {
+//      name: 'NATURE',
+//      detail: 'Super Skin Care',
+//      price: '25',
+//      img: img19,
+//      type: 'skin care',
+//  },
+// {
+//     name: "CONDITIONER",
+//     details: 'Best Conditioner',
+//     price: '30',
+//     img: img20,
+//     type: 'conditioner'
+// }
+// ,
+// {
+//     name: "CONDITIONER",
+//     details: 'Best Conditioner',
+//     price: '30',
+//     img: img21,
+//     type: 'conditioner'
+// },
+// {
+//     name: "CONDITIONER",
+//     details: 'Best Conditioner',
+//     price: '30',
+//     img: img22,
+//     type: 'some'
+// },
+// {
+//     name: "CONDITIONER",
+//     details: 'Best Conditioner',
+//     price: '30',
+//     img: img23,
+//     type: 'some'
+// },
+// {
+//     name: "FOUNDATION",
+//     details: 'Nourish your skin',
+//     price: '12',
+//     img: img19,
+//     type: 'some'
+// },
+// {
+//     name: "FOUNDATION",
+//     details: 'Nourish your skin',
+//     price: '12',
+//     img: img20,
+//     type: 'some'
+// },
+// {
+//     name: "some",
+//     details: 'Nourish your skin',
+//     price: '12',
+//     img: img21,
+//     type: 'some'
+// },
+// {
+//     name: "some",
+//     details: 'Nourish your skin',
+//     price: '12',
+//     img: img22,
+//     type: 'some'
+// }
 
+// ]
+
+export const SpecialProducts = [{
+
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '50% OFF',
+    img: img1,
+    tag: 'Shop now'
+},
+{
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '30% OFF',
+    img: img1,
+    tag: 'Shop now'
+},
+{
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '20% OFF',
+    img: img1,
+    tag: 'Shop now'
+},
+{
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '20% OFF',
+    img: img1,
+    tag: 'Shop now'
+},
+{
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '50% OFF',
+    img: img1,
+    tag: 'Shop now'
+},
+{
+    name: 'Special sale',
+    detail: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus quod laudantium, esse beatae aliquam! Nemo tempora eaque consequuntur dolore provident velit pariatur deleniti? Consectetur?',
+    price: '10% OFF',
+    img: img1,
+    tag: 'Shop now'
+}
 ]

@@ -1,0 +1,130 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: #F4F7FC;
+}
+.wrapper {
+    position: relative;
+    display: grid;
+    align-items: flex-end;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+} 
+.icons{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 100;
+    right: 0;
+    margin: auto;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.icon1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #003cbe;
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    background: #003cbe;
+    border: 1px solid #003cbe;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.wrapper>img{
+    width: 25rem;
+    justify-self: center;
+}
+.container{
+    width: max-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #00005C;
+    margin-bottom: 2rem;
+
+}
+
+.reviews{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel{
+    width: 100%;
+}
+
+.tCarousel{
+    padding: 2rem;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.05) ;
+    transition: all 1s ease;
+}
+.testimonial>img{
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
+    left: 5%;
+}
+
+.testimonial>span:nth-of-type(1){
+    align-items: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+.testimonial>hr{
+    height: 1px;
+    width: 80%;
+    background: rgb(198, 198, 198);
+    border: none;
+}
+
+.testimonial>span:nth-of-type(2){
+    font-weight: 500;
+} 
+
+.icona{
+    color: #feb62f;
+}
+@media screen and (max-width: 640px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .wrapper>img{
+        width: 80vw;
+    }
+    .wrapper>:nth-child(3), .wrapper>:nth-child(1)
+    {
+        text-align: center;
+    }
+    
+}

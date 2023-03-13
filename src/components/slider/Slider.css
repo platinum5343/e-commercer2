@@ -1,0 +1,118 @@
+.s-container{
+    position: relative;
+}
+.s-container .swiper{
+    width: 90%;
+    height: 12rem;
+}
+
+.s-container .swiper-slide{
+    background: #bbb;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.s-container .swiper-button-prev{
+    left: 6rem;
+}
+
+.s-container .swiper-button-next{
+    right: 6rem;
+}
+
+.left{
+    
+    width: 500px;
+}
+.name{
+    justify-content: space-evenly;
+}
+.name>:nth-child(1){
+    color: #FB7945;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.name>:nth-child(2){
+    color: #333333;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 33px;
+    font-family: 'Avenir';
+    margin-bottom: 1.5rem;
+}
+
+.name>:nth-child(3)
+{
+    background: #003CBE;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    color: white;
+    width: 125px;
+    height: 46px;
+}
+.img-p{
+    transform: rotate(-5deg);
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 80%;
+    bottom: 2%;
+}
+
+@media screen and (max-width: 856px) {
+    .s-container .swiper{
+        width: 90%;
+        height: 10rem; 
+    }
+    .s-container .swiper-button-prev,
+    .s-container .swiper-button-next{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
