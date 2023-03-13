@@ -2,8 +2,6 @@
 import React, {useState} from "react";
 import './Search.css';
 import data from "../data.json";
-import Home from "../Home/Home";
-
 
 const Searches = () => {
   const [searchTerm, setSearchTerm] = useState("");
